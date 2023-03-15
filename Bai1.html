@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = parseInt(prompt('Nhập số lượng số fibonacci vào đây'))
+    let count = 0
+    let a = 0
+    let b = 1
+    while (count < input) {
+        let c = a + b
+        a = b
+        b = c
+        document.write(c + '<br>')
+        count++
+    }
+</script>
+</body>
+</html>
